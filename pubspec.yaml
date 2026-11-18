@@ -1,0 +1,33 @@
+name: noteit
+description: "NoteIt! — Agenda de pendientes con foto y dictado."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Base de datos y archivos locales
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # Cámara y galería
+  image_picker: ^1.1.2
+
+  # Dictado y permisos
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.3.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
